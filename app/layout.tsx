@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Pretendard } from "@/local-fonts/fonts";
-import Header from "@/components/header/Header";
+import { Header } from "@/components/header/Header";
 import Wrapper from "@/components/Wrapper";
 
 export const metadata: Metadata = {
